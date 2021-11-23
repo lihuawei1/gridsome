@@ -5,5 +5,3 @@ src/.temp
 node_modules
 dist
 mark
-.env
-.env.*
