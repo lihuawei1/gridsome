@@ -3,7 +3,7 @@
   <!-- Page Header -->
       <header class="masthead"
       :style="{
-        backgroundImage:`url(http://106.75.26.38:1337${general.cover.url})`
+        backgroundImage:`url(${general.cover[0].url})`
       }"
       >
         <div class="overlay"></div>
@@ -11,7 +11,7 @@
           <div class="row">
             <div class="col-lg-8 col-md-10 mx-auto">
               <div class="site-heading">
-                <h1>{{general.title}}</h1>
+                <h1>{{general.title}}</h1>{{general.cover.url}}
                 <span class="subheading">{{general.subtitle}}</span>
               </div>
             </div>

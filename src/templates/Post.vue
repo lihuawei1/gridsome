@@ -4,7 +4,7 @@
   <header 
   class="masthead" 
    :style="{
-     backgroundImage:`url(http://106.75.26.38:1337${$page.post.cover.url})`
+     backgroundImage:`url(${$page.post.cover.url})`
    }">
     <div class="overlay"></div>
     <div class="container">
